@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface HideKeyboardViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+-(IBAction)textFieldReturn:(id)sender;
 @end

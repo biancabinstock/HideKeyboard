@@ -10,4 +10,17 @@
 
 @implementation HideKeyboardViewController
 
+-(IBAction)textFieldReturn:(id)sender
+{
+    [sender resignFirstResponder];
+}
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    
+    UITouch *touch = [[event allTouches] anyObject];
+    if ([_textField isFirstResponder] && [touch view] != _textField) {
+        [_textField resignFirstResponder];
+    }
+    [super touchesBegan:touches withEvent:event];
+}
+
 @end
