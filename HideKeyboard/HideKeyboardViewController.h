@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HideKeyboardViewController.h
 //  HideKeyboard
 //
 //  Created by Bianca Binstock on 2015-04-14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HideKeyboardViewController : UIViewController
 
 @end
-

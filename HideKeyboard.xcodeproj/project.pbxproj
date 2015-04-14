@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		96D8AC741ADDAEC900BE19A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D8AC731ADDAEC900BE19A9 /* main.m */; };
 		96D8AC771ADDAEC900BE19A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D8AC761ADDAEC900BE19A9 /* AppDelegate.m */; };
-		96D8AC7A1ADDAEC900BE19A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D8AC791ADDAEC900BE19A9 /* ViewController.m */; };
 		96D8AC7D1ADDAEC900BE19A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D8AC7B1ADDAEC900BE19A9 /* Main.storyboard */; };
 		96D8AC7F1ADDAEC900BE19A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D8AC7E1ADDAEC900BE19A9 /* Images.xcassets */; };
 		96D8AC821ADDAEC900BE19A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96D8AC801ADDAEC900BE19A9 /* LaunchScreen.xib */; };
 		96D8AC8E1ADDAEC900BE19A9 /* HideKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D8AC8D1ADDAEC900BE19A9 /* HideKeyboardTests.m */; };
+		96D8AC991ADDAF4C00BE19A9 /* HideKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D8AC981ADDAF4C00BE19A9 /* HideKeyboardViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		96D8AC731ADDAEC900BE19A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96D8AC751ADDAEC900BE19A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96D8AC761ADDAEC900BE19A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		96D8AC781ADDAEC900BE19A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		96D8AC791ADDAEC900BE19A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		96D8AC7C1ADDAEC900BE19A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96D8AC7E1ADDAEC900BE19A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		96D8AC811ADDAEC900BE19A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		96D8AC871ADDAEC900BE19A9 /* HideKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HideKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D8AC8C1ADDAEC900BE19A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96D8AC8D1ADDAEC900BE19A9 /* HideKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HideKeyboardTests.m; sourceTree = "<group>"; };
+		96D8AC971ADDAF4C00BE19A9 /* HideKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HideKeyboardViewController.h; sourceTree = "<group>"; };
+		96D8AC981ADDAF4C00BE19A9 /* HideKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HideKeyboardViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 			children = (
 				96D8AC751ADDAEC900BE19A9 /* AppDelegate.h */,
 				96D8AC761ADDAEC900BE19A9 /* AppDelegate.m */,
-				96D8AC781ADDAEC900BE19A9 /* ViewController.h */,
-				96D8AC791ADDAEC900BE19A9 /* ViewController.m */,
+				96D8AC971ADDAF4C00BE19A9 /* HideKeyboardViewController.h */,
+				96D8AC981ADDAF4C00BE19A9 /* HideKeyboardViewController.m */,
 				96D8AC7B1ADDAEC900BE19A9 /* Main.storyboard */,
 				96D8AC7E1ADDAEC900BE19A9 /* Images.xcassets */,
 				96D8AC801ADDAEC900BE19A9 /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96D8AC7A1ADDAEC900BE19A9 /* ViewController.m in Sources */,
+				96D8AC991ADDAF4C00BE19A9 /* HideKeyboardViewController.m in Sources */,
 				96D8AC771ADDAEC900BE19A9 /* AppDelegate.m in Sources */,
 				96D8AC741ADDAEC900BE19A9 /* main.m in Sources */,
 			);
